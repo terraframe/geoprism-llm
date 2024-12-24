@@ -1,0 +1,62 @@
+The user is going to ask about a location.  First, use the 'name-resolution' tool to get the code of the location.  Then based on the rules specified below generate a cypher query for the code. Finally, use the 'neo4j' tool to execute the cypher query and print the results.
+
+The query should be able to try best answer the question with the given graph schema.
+The query should follow the following guidance:
+- Fully qualify property references with the node's label.
+```
+// Incorrect
+MATCH (p:SchoolZone)-[:HAS_SCHOOL]->(:School) RETURN p.name AS output
+// Correct
+MATCH (p:SchoolZone)-[:HAS_SCHOOL]->(i:School) RETURN i.name AS output
+```
+- Strictly follow the relationship on schema:
+Given the relationship ['(:`School`)-[:`HAS_FLOOD_AREA`]->(:`FloodArea`)']:
+```
+// Incorrect
+MATCH (a:FloodArea)<-[:HAS_FLOOD_AREA]-(t:School)
+RETURN DISTINCT t.name AS output
+// Correct
+MATCH (a:School)-[:HAS_FLOOD_AREA]->(t:FloodArea)
+RETURN DISTINCT t.name AS output
+```
+- Follow single direction (from left to right) query model:
+```
+// Incorrect
+MATCH (a:School)<-[:HAS_FLOOD_AREA]-(t:FloodArea)
+RETURN DISTINCT t.name AS output
+// Correct
+MATCH (a:School)-[:HAS_FLOOD_AREA]->(t:FloodArea)
+RETURN DISTINCT t.name AS output
+```
+- The criteria should always be on the source entity:
+```
+// Incorrect
+MATCH (a:School)-[:HAS_FLOOD_AREA]->(t:FloodArea {code: 'A_CODE'})
+RETURN DISTINCT t.name AS output
+// Correct
+MATCH (a:School {code: 'A_CODE'})-[:HAS_FLOOD_AREA]->(t:FloodArea)
+RETURN DISTINCT t.name AS output
+```
+- The output variable must always be called 'output':
+```
+// Incorrect
+MATCH (a:School)-[:HAS_FLOOD_AREA]->(t:FloodArea {code: 'A_CODE'})
+RETURN DISTINCT t.name AS flood_area
+// Correct
+MATCH (a:School {code: 'A_CODE'})-[:HAS_FLOOD_AREA]->(t:FloodArea)
+RETURN DISTINCT t.name AS output
+```
+
+Given any relationship property, you should just use them following the relationship paths provided, respecting the direction of the relationship path.
+NOTE:
+0. Try to get as much graph data as possible to answer the question
+1. Put a limit of 30 results in the query.
+---
+Schema: 
+
+Node properties are the following:
+FloodArea {name: STRING, code: STRING},School {name: STRING, code: STRING},SchoolZone {name: STRING, code: STRING},Levee {code: STRING, name: STRING},Channel {name: STRING, code: STRING}
+Relationship properties are the following:
+
+The relationships are the following:
+(:FloodArea)-[:PROTECTED_BY]->(:Levee),(:School)-[:HAS_FLOOD_AREA]->(:FloodArea),(:SchoolZone)-[:HAS_SCHOOL]->(:School),(:Levee)-[:PROTECTS_AGAINST]->(:Channel)

@@ -1,0 +1,21 @@
+version: '3'
+services:
+  elasticsearch:
+    container_name: rag-es
+    image: 'docker.elastic.co/elasticsearch/elasticsearch:8.15.2'
+    environment:
+      ES_JAVA_OPTS: "-Xms512m -Xmx512m"
+      ELASTIC_PASSWORD: elastic
+      xpack.security.enabled: "false"
+      discovery.type: single-node
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - /data/rag/elasticsearch/data:/usr/share/elasticsearch/data
+      - /data/rag/elasticsearch/logs:/usr/share/elasticsearch/logs
+    restart: always
+    ports:
+     - "9200:9200"
+     - "9300:9300"     

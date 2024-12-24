@@ -1,0 +1,10 @@
+.react-chatbot-kit-chat-container {
+    position: relative;
+    width: 100% !important;
+    height: 100%;
+}
+
+.react-chatbot-kit-chat-bot-message {
+    width: auto !important;
+    height: 100%;
+}

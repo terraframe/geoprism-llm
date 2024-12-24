@@ -1,0 +1,20 @@
+version: "3"
+services:
+  neo4j:
+    image: neo4j:latest
+    container_name: neo4j
+    volumes:
+        - /data/rag/neo4j/logs:/logs
+        - /data/rag/neo4j/config:/config
+        - /data/rag/neo4j/data:/data
+        - /data/rag/neo4j/plugins:/plugins
+    environment:
+        - NEO4J_AUTH=neo4j/test_password
+        - NEO4J_dbms_security_procedures_unrestricted=apoc.*,algo.*,gds.*,spatial.*
+        - NEO4J_dbms.security.procedures.allowlist=apoc.*,algo.*,gds.*,spatial.*
+        - NEO4J_apoc_import_file_enabled=true
+        - NEO4J_PLUGINS=["apoc", "graph-data-science"]
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    restart: "no"
