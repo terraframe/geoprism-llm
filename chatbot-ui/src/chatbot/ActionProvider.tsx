@@ -62,6 +62,28 @@ export const invokeBedrockAgent = async (prompt: string, sessionId: string) => {
     }
 };
 
+/**
+ * Invokes a Bedrock agent to run an inference using the input
+ * provided in the request body.
+ *
+ * @param {string} prompt - The prompt that you want the Agent to complete.
+ * @param {string} sessionId - An arbitrary identifier for the session.
+ */
+export const invokeApiAgent = async (prompt: string, sessionId: string) => {
+
+    try {
+        const params = new URLSearchParams({ prompt, sessionId });
+
+        const response = await fetch(process.env.REACT_APP_API_URL + '?' + params);
+        const data = await response.json();
+
+        return { sessionId: data.sessionId, completion: data.content };
+    } catch (err) {
+        console.error(err);
+    }
+};
+
+
 class ActionProvider {
 
     createChatBotMessage: any;
@@ -91,7 +113,8 @@ class ActionProvider {
         const loading = this.createChatBotMessage(<Loader />)
         this.setState((prev: any) => ({ ...prev, messages: [...prev.messages, loading], }))
 
-        const result = await invokeBedrockAgent(message, this.sessionId);
+        // const result = await invokeBedrockAgent(message, this.sessionId);
+        const result = await invokeApiAgent(message, this.sessionId);
 
         const responseMessage = this.createChatBotMessage(result?.completion)
 

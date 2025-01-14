@@ -1,0 +1,1289 @@
+{
+    "ResponseMetadata": {
+      "RequestId": "8aca241e-d8f3-f060-4332-0389952ca7ef",
+      "HTTPStatusCode": 200,
+      "HTTPHeaders": {
+        "content-type": "application/json; charset=UTF-8",
+        "content-length": "60763",
+        "x-amzn-requestid": "8aca241e-d8f3-f060-4332-0389952ca7ef",
+        "connection": "keep-alive"
+      },
+      "RetryAttempts": 0
+    },
+    "statusCode": 200,
+    "payload": {
+      "version": "v1",
+      "lastStatisticsComputationTime": "datetime.datetime(2025, 1, 7, 20, 26, 47, 521000, tzinfo=tzlocal())",
+      "graphSummary": {
+        "numDistinctSubjects": 40336,
+        "numDistinctPredicates": 17,
+        "numQuads": 45286,
+        "numClasses": 14,
+        "classes": [
+          "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RecreationArea",
+          "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#UsaceRecreationArea",
+          "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ChannelArea",
+          "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#LeveeArea",
+          "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#School",
+          "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#Project",
+          "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#Reservoir",
+          "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ChannelReach",
+          "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty",
+          "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#River",
+          "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#Hospital",
+          "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#SchoolZone",
+          "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#Watershed",
+          "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#LeveedArea"
+        ],
+        "predicates": [
+          {
+            "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists": 7365
+          },
+          {
+            "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid": 7300
+          },
+          {
+            "http://www.w3.org/2000/01/rdf-schema#label": 7205
+          },
+          {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": 7191
+          },
+          {
+            "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code": 7166
+          },
+          {
+            "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasSchoolZone": 5150
+          },
+          {
+            "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ConnectedTo": 1844
+          },
+          {
+            "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasFloodRisk": 473
+          },
+          {
+            "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyType": 458
+          },
+          {
+            "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyUse": 440
+          },
+          {
+            "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#WithinWatershed": 327
+          },
+          {
+            "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#FlowsInto": 190
+          },
+          {
+            "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#FlowsThrough": 71
+          },
+          {
+            "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ChannelHasLevee": 45
+          },
+          {
+            "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#Project-programCode": 24
+          },
+          {
+            "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#Project-programName": 21
+          },
+          {
+            "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasFloodZone": 16
+          }
+        ],
+        "subjectStructures": [
+          {
+            "count": 5950,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 5782,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            ]
+          },
+          {
+            "count": 5755,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 5609,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label"
+            ]
+          },
+          {
+            "count": 5520,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 4112,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasSchoolZone"
+            ]
+          },
+          {
+            "count": 1445,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ConnectedTo"
+            ]
+          },
+          {
+            "count": 367,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyType"
+            ]
+          },
+          {
+            "count": 362,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 345,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasFloodRisk"
+            ]
+          },
+          {
+            "count": 332,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyUse"
+            ]
+          },
+          {
+            "count": 300,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 286,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 274,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "http://www.w3.org/2000/01/rdf-schema#label"
+            ]
+          },
+          {
+            "count": 268,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 262,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 260,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#WithinWatershed"
+            ]
+          },
+          {
+            "count": 260,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 250,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 236,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 199,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasSchoolZone",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 196,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasSchoolZone",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 191,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasSchoolZone",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 175,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasSchoolZone"
+            ]
+          },
+          {
+            "count": 174,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasSchoolZone"
+            ]
+          },
+          {
+            "count": 154,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#FlowsInto"
+            ]
+          },
+          {
+            "count": 132,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 83,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ConnectedTo",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 69,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ConnectedTo",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 66,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ConnectedTo"
+            ]
+          },
+          {
+            "count": 64,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ConnectedTo"
+            ]
+          },
+          {
+            "count": 53,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#FlowsThrough"
+            ]
+          },
+          {
+            "count": 42,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ConnectedTo",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 37,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ChannelHasLevee"
+            ]
+          },
+          {
+            "count": 23,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 21,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 20,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasFloodRisk",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 20,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasFloodRisk",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 20,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyType",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 18,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasFloodRisk",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 18,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasFloodRisk",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyUse"
+            ]
+          },
+          {
+            "count": 17,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#Project-programName"
+            ]
+          },
+          {
+            "count": 16,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 16,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 15,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasFloodZone"
+            ]
+          },
+          {
+            "count": 15,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyUse"
+            ]
+          },
+          {
+            "count": 14,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#WithinWatershed"
+            ]
+          },
+          {
+            "count": 14,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyUse",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 13,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#Project-programCode"
+            ]
+          },
+          {
+            "count": 13,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 13,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyUse",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 13,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasFloodRisk",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyType"
+            ]
+          },
+          {
+            "count": 12,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasSchoolZone",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 12,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasSchoolZone"
+            ]
+          },
+          {
+            "count": 11,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#WithinWatershed",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 11,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasFloodRisk"
+            ]
+          },
+          {
+            "count": 11,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasSchoolZone",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 11,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 11,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyType"
+            ]
+          },
+          {
+            "count": 10,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#WithinWatershed"
+            ]
+          },
+          {
+            "count": 10,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasSchoolZone",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 10,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasSchoolZone",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 10,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasSchoolZone",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 10,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasFloodRisk"
+            ]
+          },
+          {
+            "count": 10,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyType",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 10,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyType",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 10,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyType",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyUse"
+            ]
+          },
+          {
+            "count": 9,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#WithinWatershed",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 9,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 9,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasSchoolZone",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 9,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 8,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasSchoolZone",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 8,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyUse",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 7,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#FlowsInto"
+            ]
+          },
+          {
+            "count": 7,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyUse"
+            ]
+          },
+          {
+            "count": 6,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#FlowsInto",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 6,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasSchoolZone",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 6,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 6,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#WithinWatershed",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 6,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#FlowsInto",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 6,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ConnectedTo",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 6,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ConnectedTo",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 6,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ConnectedTo",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 6,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasSchoolZone",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 6,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyType"
+            ]
+          },
+          {
+            "count": 5,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ConnectedTo",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 4,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#FlowsInto",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 4,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasFloodRisk",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasSchoolZone"
+            ]
+          },
+          {
+            "count": 4,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#FlowsInto"
+            ]
+          },
+          {
+            "count": 4,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ConnectedTo",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 4,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasFloodRisk",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 4,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ConnectedTo"
+            ]
+          },
+          {
+            "count": 4,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyUse",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 4,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyUse",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 4,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyType",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#WithinWatershed"
+            ]
+          },
+          {
+            "count": 3,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ConnectedTo",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#Project-programCode"
+            ]
+          },
+          {
+            "count": 3,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ConnectedTo",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#FlowsThrough"
+            ]
+          },
+          {
+            "count": 3,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ChannelHasLevee",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 3,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#Project-programCode",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 3,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#FlowsThrough",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 3,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#FlowsThrough"
+            ]
+          },
+          {
+            "count": 3,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#FlowsThrough",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 3,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 3,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#WithinWatershed"
+            ]
+          },
+          {
+            "count": 3,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 3,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyUse",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#WithinWatershed"
+            ]
+          },
+          {
+            "count": 2,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#Project-programName",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 2,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ChannelHasLevee",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 2,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#FlowsThrough",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 2,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasSchoolZone",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#WithinWatershed"
+            ]
+          },
+          {
+            "count": 2,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ConnectedTo",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 2,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ChannelHasLevee",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 2,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ConnectedTo",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 2,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasFloodRisk",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 2,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 2,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 2,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasFloodRisk",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyUse"
+            ]
+          },
+          {
+            "count": 2,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyUse",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 2,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyType",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyType",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyUse",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyType",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyUse",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ConnectedTo",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#Project-programName"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ConnectedTo",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#FlowsInto"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#FlowsInto",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#FlowsThrough"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasFloodRisk",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#WithinWatershed",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#WithinWatershed",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#Project-programCode",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasFloodZone",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#FlowsInto",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#WithinWatershed",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasFloodRisk",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#Project-programCode",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#WithinWatershed",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ConnectedTo",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#FlowsInto",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasSchoolZone",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#Project-programName"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#ChannelHasLevee"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#FlowsThrough"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#Project-programCode"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasFloodRisk",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#FlowsThrough",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#Project-programCode",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasFloodRisk"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#Project-programCode",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#FlowsInto",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#FlowsThrough",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasSchoolZone",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasSchoolZone",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyUse",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyUse",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#WithinWatershed",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyUse",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasFloodRisk",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyUse"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyUse",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "http://www.w3.org/2000/01/rdf-schema#label",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyUse"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyType",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-exists"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#HasFloodRisk",
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyType",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          },
+          {
+            "count": 1,
+            "predicates": [
+              "https://dev-georegistry.geoprism.net/lpg/deliverable2024/0/rdfs#RealProperty-realPropertyType",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-code",
+              "https://dev-georegistry.geoprism.net/lpg/rdfs#GeoObject-uid"
+            ]
+          }
+        ]
+      }
+    }
+  }

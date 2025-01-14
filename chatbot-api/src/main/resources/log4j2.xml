@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="error" strict="true" name="XMLConfigTest"
+               packages="org.apache.logging.log4j.test">
+  <Properties>
+    <Property name="logdir">${project.basedir}/../logs</Property>
+    <Property name="filename">${project.basedir}/../logs/log.log</Property>
+  </Properties>
+ 
+  <Appenders>
+    <Appender type="Console" name="STDOUT">
+      <Layout type="PatternLayout" pattern="[%p] %m%n"/>
+    </Appender>
+    
+    <RollingFile
+      name="rollingFile"
+      fileName="${logdir}/app.log"
+      filePattern="${logdir}/app.%d{dd-MMM}.log.gz"
+      ignoreExceptions="false">
+      <PatternLayout>
+          <Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p %m%n</Pattern>
+      </PatternLayout>
+      <Policies>
+          <OnStartupTriggeringPolicy />
+          <SizeBasedTriggeringPolicy size="10 MB" />
+          <TimeBasedTriggeringPolicy />
+      </Policies>
+      <DefaultRolloverStrategy max="5" />
+  </RollingFile>
+  </Appenders>
+ 
+  <Loggers>
+    <Root level="info">
+      <AppenderRef ref="STDOUT"/>
+      <AppenderRef ref="rollingFile"/>
+    </Root>
+  </Loggers>
+ 
+</Configuration>

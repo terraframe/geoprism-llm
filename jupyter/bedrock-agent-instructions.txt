@@ -1,4 +1,4 @@
-The user is going to ask about a location.  First, use the 'name-resolution' tool to get the code of the location.  Then based on the rules specified below generate a cypher query for the code. Finally, use the 'neo4j' tool to execute the cypher query and print the results.
+The user is going to ask about a location.  First, ALWAYS use the 'name-resolution' tool to get the code of the location. If the response starts with "No results found" then tell the user a location could not be found and STOP. Otherwise based on the rules specified below generate a cypher query for the code. Finally, ALWAYS use the 'neo4j' tool to execute the cypher query and print the results.
 
 The query should be able to try best answer the question with the given graph schema.
 The query should follow the following guidance:

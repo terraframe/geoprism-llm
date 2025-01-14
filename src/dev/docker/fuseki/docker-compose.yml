@@ -1,0 +1,16 @@
+version: "3"
+services:
+  neo4j:
+    image: secoresearch/fuseki:latest
+    container_name: fuseki
+    volumes:
+        - /data/rag/fuseki/databases:/databases
+    environment:
+        - ADMIN_PASSWORD=admin
+        - ENABLE_DATA_WRITE=true
+        - ENABLE_UPDATE=true
+        - ENABLE_SHACL=true
+        - QUERY_TIMEOUT=9999999    
+    ports:
+      - "3030:3030"
+    restart: "no"

@@ -1,0 +1,86 @@
+<!--
+
+
+
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>net.geoprism</groupId>
+  <artifactId>geoprism-llm</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>GeoPrism LLM</name>
+  <description>GeoPrism LLM</description>
+
+  <modules>
+    <module>chatbot-ui</module>    
+    <module>chatbot-api</module>
+  </modules>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <repositories>
+    <repository>
+      <id>central</id>
+      <name>central</name>
+      <url> https://repo1.maven.org/maven2/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>terraframe-public</id>
+      <url>https://dl.cloudsmith.io/public/terraframe/public/maven/</url>
+      <releases>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>terraframe-runwaysdk</id>
+      <url>https://dl.cloudsmith.io/public/terraframe/runwaysdk/maven/</url>
+      <releases>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>terraframe-geoprism</id>
+      <url>https://dl.cloudsmith.io/public/terraframe/geoprism/maven/</url>
+      <releases>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+      </snapshots>
+    </repository>
+  </repositories>
+
+  <licenses>
+    <license>
+      <name>
+        GNU Library or Lesser General Public License (LGPL)
+      </name>
+      <url>http://www.gnu.org/licenses/lgpl.html</url>
+    </license>
+  </licenses>
+
+  <scm>
+    <connection>scm:git:ssh://git@github.com/terraframe/geoprism-llm</connection>
+    <developerConnection>scm:git:ssh://git@github.com/terraframe/geoprism-llm</developerConnection>
+    <url>scm:git:ssh://git@github.com/terraframe/geoprism-llm</url>
+    <tag>0.0.1</tag>
+  </scm>
+</project>
