@@ -1,10 +1,10 @@
 import React from "react";
-import { v4 as uuidv4 } from 'uuid';
 import {
     BedrockAgentRuntimeClient,
     InvokeAgentCommand,
 } from "@aws-sdk/client-bedrock-agent-runtime";
 import Loader from "./Loader";
+import instance from "../SessionHolder";
 
 
 /**
@@ -91,7 +91,6 @@ class ActionProvider {
     createClientMessage: any;
     stateRef: any;
     createCustomMessage: any;
-    sessionId: string
 
     constructor(
         createChatBotMessage: any,
@@ -105,7 +104,6 @@ class ActionProvider {
         this.createClientMessage = createClientMessage;
         this.stateRef = stateRef;
         this.createCustomMessage = createCustomMessage;
-        this.sessionId = uuidv4();
     }
 
 
@@ -114,7 +112,7 @@ class ActionProvider {
         this.setState((prev: any) => ({ ...prev, messages: [...prev.messages, loading], }))
 
         // const result = await invokeBedrockAgent(message, this.sessionId);
-        const result = await invokeApiAgent(message, this.sessionId);
+        const result = await invokeApiAgent(message, instance.getSessionId());
 
         const responseMessage = this.createChatBotMessage(result?.completion)
 

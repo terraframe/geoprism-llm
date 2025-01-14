@@ -1,7 +1,6 @@
-import * as React from 'react';
+import React from "react"
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid2';
-
 
 import Chatbot from 'react-chatbot-kit'
 import 'react-chatbot-kit/build/main.css';
@@ -15,6 +14,8 @@ import './App.css';
 
 export default function App() {
   return (
+
+    //Initialise
     <Container style={{ background: '#f2f6fc', height: '100vh' }} maxWidth={false} className='App'>
       <Box sx={{ flexGrow: 1 }} justifyContent='center'>
         <Grid container spacing={2}>
