@@ -8,6 +8,7 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>chatbot-api</artifactId>
+  <packaging>war</packaging>
   <name>Chatbot API Server</name>
   <description></description>
   <properties>
@@ -16,13 +17,17 @@
     <java.version>17</java.version>
     <aws.version>2.29.6</aws.version>
     <spring.version>3.3.4</spring.version>
-
   </properties>
   <dependencies>
     <!--  Spring!  -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-security</artifactId>
       <version>${spring.version}</version>
     </dependency>
     <dependency>
@@ -53,7 +58,7 @@
       <artifactId>bedrockruntime</artifactId>
       <version>${aws.version}</version>
     </dependency>
-    <!-- Testing -->    
+    <!-- Testing -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>

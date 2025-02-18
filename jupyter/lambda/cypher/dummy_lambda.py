@@ -47,7 +47,7 @@ def execute(name: str) -> str:
     try:
        
         response = conn.query(cypher, {})
-        result = "\n".join([el['output'] for el in response])
+        result = "\n".join([str(el['output']) for el in response])
             
         return result        
     finally:

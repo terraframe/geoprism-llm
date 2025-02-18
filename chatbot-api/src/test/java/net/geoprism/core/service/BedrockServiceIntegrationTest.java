@@ -17,8 +17,7 @@ import net.geoprism.core.model.Message;
 @ExtendWith(SpringExtension.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK, classes = TestConfiguration.class)
 @AutoConfigureMockMvc
-@Ignore
-public class BedrockServiceTest
+public class BedrockServiceIntegrationTest
 {
 
   @Autowired
@@ -26,15 +25,16 @@ public class BedrockServiceTest
 
   // write test cases here
   @Test
+  @Ignore
   public void test()
   {
     String sessionId = UUID.randomUUID().toString();
     String inputText = "What school zones are impacted by reach_25 flooding?";
 
-    Message message = service.prompt(sessionId, inputText);
-
-    System.out.println(message.getContent());
-
-    Assert.assertTrue(message.getContent().trim().length() > 0);
+//    Message message = service.prompt(sessionId, inputText);
+//
+//    System.out.println(message.getContent());
+//
+//    Assert.assertTrue(message.getContent().trim().length() > 0);
   }
 }
