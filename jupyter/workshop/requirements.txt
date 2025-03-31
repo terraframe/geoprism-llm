@@ -1,0 +1,15 @@
+python_dotenv
+rdflib
+oxrdflib
+boto3==1.37.9
+botocore==1.37.9
+colorama==0.4.6
+iniconfig==2.0.0
+jmespath==1.0.1
+packaging==24.2
+pluggy==1.5.0
+pytest==8.3.4
+python-dateutil==2.9.0.post0
+s3transfer==0.11.2
+six==1.17.0
+urllib3==2.3.0
