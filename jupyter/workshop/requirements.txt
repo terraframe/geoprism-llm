@@ -1,6 +1,14 @@
 python_dotenv
+
+# shapefile processing
+fiona
+shapely
+
+# RDF graph data store
 rdflib
 oxrdflib
+
+# AWS Bedrock
 boto3==1.37.9
 botocore==1.37.9
 colorama==0.4.6
