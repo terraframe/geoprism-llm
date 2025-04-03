@@ -18,7 +18,7 @@ def header():
     )
     print("")
     print("Example queries:")
-    print("- What school zones are impacted if the levee with the code 'LEV_A_96' floods?")
+    print("- What school zones are impacted if the levee with the code 'LEV_A_229' floods?")
     print("- What is the total population impacted if channel with the code 'CEMVK_RR_03_ONE_25' floods?")
     print("")
     print("To exit the program, simply type 'x' and press Enter.")
