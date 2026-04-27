@@ -37,7 +37,7 @@ def footer():
     separator("=")
 
 
-def call_to_bedrock(conversation):
+def remote_call(conversation):
     """
     Logs information about the call to Amazon Bedrock.
 
