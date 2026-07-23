@@ -31,8 +31,6 @@ dggrid4py>=0.5.2
 geopandas
 rasterio
 vgrid
-mock
-tqdm
 ipywidgets
 jupyterlab_widgets
 pandas==2.3.3
