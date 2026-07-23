@@ -1,0 +1,177 @@
+{ "type": "Feature", "properties": { "code": "relation\/17239485", "label": "Oak Ridge Solar" }, "geometry": { "type": "Point", "coordinates": [ -91.7782812, 32.5912274 ] } }
+{ "type": "Feature", "properties": { "code": "way\/186966587", "label": "Lake Village Bagby Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.2908751, 33.3466711 ] } }
+{ "type": "Feature", "properties": { "code": "way\/300883771", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.0036263, 32.4953573 ] } }
+{ "type": "Feature", "properties": { "code": "way\/320612789", "label": "Delhi Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.514881, 32.4595576 ] } }
+{ "type": "Feature", "properties": { "code": "way\/321255024", "label": "Tallulah Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.1794469, 32.4189664 ] } }
+{ "type": "Feature", "properties": { "code": "way\/321258887", "label": "Darnell Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.4490016, 32.6780074 ] } }
+{ "type": "Feature", "properties": { "code": "way\/416098297", "label": "McGehee Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.4186623, 33.6287191 ] } }
+{ "type": "Feature", "properties": { "code": "way\/422135060", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.1079052, 32.4074766 ] } }
+{ "type": "Feature", "properties": { "code": "way\/422135061", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.1039198, 32.4362871 ] } }
+{ "type": "Feature", "properties": { "code": "way\/453258720", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.9810811, 34.2226786 ] } }
+{ "type": "Feature", "properties": { "code": "way\/462176671", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.4517414, 31.5567654 ] } }
+{ "type": "Feature", "properties": { "code": "way\/475918743", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.4875363, 33.8996649 ] } }
+{ "type": "Feature", "properties": { "code": "way\/475918745", "label": "Dumas Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.4765076, 33.8835239 ] } }
+{ "type": "Feature", "properties": { "code": "way\/489076346", "label": "Ferriday Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.5539179, 31.6439309 ] } }
+{ "type": "Feature", "properties": { "code": "way\/654152848", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.7496861, 32.2427523 ] } }
+{ "type": "Feature", "properties": { "code": "way\/698949782", "label": "Varner Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.6182456, 34.0412563 ] } }
+{ "type": "Feature", "properties": { "code": "way\/707110973", "label": "Eurora Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.2831718, 33.109479 ] } }
+{ "type": "Feature", "properties": { "code": "way\/707110975", "label": "Montrose East Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.4416585, 33.3035847 ] } }
+{ "type": "Feature", "properties": { "code": "way\/729214961", "label": "Rohwer Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.2360312, 33.7072208 ] } }
+{ "type": "Feature", "properties": { "code": "way\/803838168", "label": "Monroe Tie Substation" }, "geometry": { "type": "Point", "coordinates": [ -92.0652088, 32.5138914 ] } }
+{ "type": "Feature", "properties": { "code": "way\/818162540", "label": "Montrose Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.4928341, 33.3037775 ] } }
+{ "type": "Feature", "properties": { "code": "way\/833645307", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.0508297, 32.4512875 ] } }
+{ "type": "Feature", "properties": { "code": "way\/833661256", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.0897034, 32.1548648 ] } }
+{ "type": "Feature", "properties": { "code": "way\/833704862", "label": "Oak Grove Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.4164874, 32.8553185 ] } }
+{ "type": "Feature", "properties": { "code": "way\/833706822", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.3433698, 32.9627342 ] } }
+{ "type": "Feature", "properties": { "code": "way\/833711041", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.6245203, 32.4789957 ] } }
+{ "type": "Feature", "properties": { "code": "way\/833711043", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.5849611, 32.4794804 ] } }
+{ "type": "Feature", "properties": { "code": "way\/860771207", "label": "Reed Switching Station" }, "geometry": { "type": "Point", "coordinates": [ -91.4317565, 33.6891387 ] } }
+{ "type": "Feature", "properties": { "code": "way\/865199669", "label": "Sidney A. Murray Jr. Hydroelectric Station" }, "geometry": { "type": "Point", "coordinates": [ -91.6188062, 31.0880654 ] } }
+{ "type": "Feature", "properties": { "code": "way\/870322069", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.6741772, 31.9475917 ] } }
+{ "type": "Feature", "properties": { "code": "way\/871585596", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.488502, 31.5802499 ] } }
+{ "type": "Feature", "properties": { "code": "way\/871593275", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.2421853, 31.9256228 ] } }
+{ "type": "Feature", "properties": { "code": "way\/940187720", "label": "Pine Bluff Energy Center" }, "geometry": { "type": "Point", "coordinates": [ -91.9028287, 34.2177589 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1049470800", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.4795711, 31.6895127 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1049470809", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.5888729, 31.6193698 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1049470818", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.8204324, 31.616518 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1049470819", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.8224239, 31.6173014 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1058275066", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.344409, 33.47852 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1058275067", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.3440758, 33.4774288 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1058275069", "label": "Chicot Solar" }, "geometry": { "type": "Point", "coordinates": [ -91.3574171, 33.4754285 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1086568561", "label": "Pine Bluff Mill Cogen" }, "geometry": { "type": "Point", "coordinates": [ -91.9069441, 34.2206418 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1089481265", "label": "Clearwater Paper Cogen" }, "geometry": { "type": "Point", "coordinates": [ -91.2377476, 33.7062088 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1106542829", "label": "Marksville Substation" }, "geometry": { "type": "Point", "coordinates": [ -92.0805675, 31.0958954 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1167579931", "label": "Wisner Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.6773297, 31.9691959 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1167579933", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.6977346, 32.0388231 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1167579935", "label": "Winnsboro Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.691965, 32.1689786 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1168243537", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.7897928, 31.617472 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1168435954", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.8552526, 31.6087505 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1172706121", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.845361, 32.3568531 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1172706127", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.587243, 32.4437206 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1172706128", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.5900505, 32.444522 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180187199", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.0814418, 31.1087416 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180187200", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.0656445, 31.1251589 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180916192", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.8529107, 31.6289752 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180916197", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.824963, 31.7186236 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180916198", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.7044642, 31.8296923 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180945281", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.7251949, 31.4663887 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180945284", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.7805677, 31.3743116 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180945295", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.6204981, 31.0887137 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180945301", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.5780044, 31.6250259 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180945302", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.5357913, 31.4733412 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180969782", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.8136636, 32.0470783 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1181008427", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.0885294, 32.4987513 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1181008438", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.0962011, 32.522652 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1181068448", "label": "Oak Ridge Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.7886708, 32.5750423 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1181068458", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.5761546, 32.6219483 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1181098696", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.7707551, 32.8433444 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1193407467", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.6331352, 32.2813114 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1198317243", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.1405924, 31.121449 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1201131521", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.4596825, 33.2149184 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1201131534", "label": "Chicot Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.2934993, 33.2137157 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1201131551", "label": "Lake Chico Pump Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.241169, 33.4320318 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1201131561", "label": "Dermott Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.435731, 33.5068472 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1201167709", "label": "Pea Ridge Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.3370151, 33.9197548 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1201244708", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.9045896, 34.2162617 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1201244711", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.9039358, 34.2184402 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1201244712", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.9040118, 34.2187285 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1201584502", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.7805679, 31.3738995 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1206537693", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.3403236, 33.8121257 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1280032964", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.4523042, 33.7245302 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1286931267", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.0572809, 31.0825677 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1321957885", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.4525965, 33.7246409 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1321957886", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.4525908, 33.7245562 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1321957887", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.452585, 33.7244679 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1321957888", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.4525795, 33.7243866 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1321957889", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.4520307, 33.7246584 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1321957890", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.452025, 33.7245736 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1321957891", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.452019, 33.7244854 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1321957892", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.4520136, 33.724404 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1338914065", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.8209389, 34.0755961 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1338914066", "label": "C&L" }, "geometry": { "type": "Point", "coordinates": [ -91.829485, 34.0748166 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1356653728", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.7562825, 32.4942497 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1485090962", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.2037224, 32.8115119 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1485090963", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.4367111, 31.7575578 ] } }
+{ "type": "Feature", "properties": { "code": "way\/860699633", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.3408232, 31.2966856 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1106611840", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.3573711, 31.2951831 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180375364", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.404626, 31.350924 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180375365", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.3822464, 31.3356234 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180375371", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.2783294, 31.2487454 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180375372", "label": "Effie Substation" }, "geometry": { "type": "Point", "coordinates": [ -92.1653162, 31.2252065 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180375374", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.3735314, 31.3158291 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180375375", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.4180614, 31.326803 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180375377", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.4201426, 31.3163255 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180375379", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.2350062, 31.3885481 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180417264", "label": "Deville Substation" }, "geometry": { "type": "Point", "coordinates": [ -92.1643807, 31.3573919 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180465615", "label": "Webster Street Substation" }, "geometry": { "type": "Point", "coordinates": [ -92.4358013, 31.3228127 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180465628", "label": "Louisiana College Substation" }, "geometry": { "type": "Point", "coordinates": [ -92.4282533, 31.324152 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180465670", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.435154, 31.3400942 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180465671", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.4395618, 31.3584893 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1282219859", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.4367088, 31.349387 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1282219860", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.4361056, 31.3507896 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1282219861", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.4350807, 31.3507604 ] } }
+{ "type": "Feature", "properties": { "code": "way\/88830398", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.4610135, 31.321128 ] } }
+{ "type": "Feature", "properties": { "code": "way\/187498943", "label": "Rapides Substation" }, "geometry": { "type": "Point", "coordinates": [ -92.5838239, 31.3626392 ] } }
+{ "type": "Feature", "properties": { "code": "way\/187498974", "label": "Hot Wells Substation" }, "geometry": { "type": "Point", "coordinates": [ -92.5690577, 31.3111976 ] } }
+{ "type": "Feature", "properties": { "code": "way\/187498981", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.5134715, 31.2684324 ] } }
+{ "type": "Feature", "properties": { "code": "way\/199091541", "label": "Champangne Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.9699898, 30.5408083 ] } }
+{ "type": "Feature", "properties": { "code": "way\/266737198", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.8536128, 30.3132235 ] } }
+{ "type": "Feature", "properties": { "code": "way\/266737199", "label": "Cecilia Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.8442732, 30.3146447 ] } }
+{ "type": "Feature", "properties": { "code": "way\/339820211", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.8196224, 30.2221989 ] } }
+{ "type": "Feature", "properties": { "code": "way\/339820212", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.8063745, 30.1950381 ] } }
+{ "type": "Feature", "properties": { "code": "way\/489084233", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.0105782, 31.0242202 ] } }
+{ "type": "Feature", "properties": { "code": "way\/534677004", "label": "Lecompte Substation" }, "geometry": { "type": "Point", "coordinates": [ -92.3955023, 31.0848784 ] } }
+{ "type": "Feature", "properties": { "code": "way\/617654738", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.7985106, 30.0030783 ] } }
+{ "type": "Feature", "properties": { "code": "way\/631684001", "label": "St. Mary Clean Energy Center" }, "geometry": { "type": "Point", "coordinates": [ -91.4730387, 29.6852779 ] } }
+{ "type": "Feature", "properties": { "code": "way\/842252594", "label": "Cleco Teche Power Station" }, "geometry": { "type": "Point", "coordinates": [ -91.544124, 29.8233584 ] } }
+{ "type": "Feature", "properties": { "code": "way\/842252595", "label": "Teche Station Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.5433271, 29.8234567 ] } }
+{ "type": "Feature", "properties": { "code": "way\/842252597", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.5191545, 29.7986823 ] } }
+{ "type": "Feature", "properties": { "code": "way\/860699629", "label": "D. G. Hunter Power Station" }, "geometry": { "type": "Point", "coordinates": [ -92.462744, 31.3210208 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1102396876", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.0088268, 30.8310003 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1106522827", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.2148316, 30.9162938 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1106522828", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.1341404, 30.9833714 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1106794193", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.0241725, 30.6689189 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1137442303", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.5463366, 29.8254557 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1137442306", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.4245894, 29.726062 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1177092630", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.9146022, 30.5439452 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1177169980", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.9784155, 30.727501 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1177169981", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.036816, 30.7833663 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1177169987", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.2129818, 30.8674506 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1177169994", "label": "Bunkie Substation" }, "geometry": { "type": "Point", "coordinates": [ -92.1781683, 30.948255 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1177169996", "label": "Bunkie Highway 71 Substation" }, "geometry": { "type": "Point", "coordinates": [ -92.1969613, 30.9627931 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1177169999", "label": "Hessmer Substation" }, "geometry": { "type": "Point", "coordinates": [ -92.1180997, 31.0513723 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1177170003", "label": "Cheneyville Substation" }, "geometry": { "type": "Point", "coordinates": [ -92.2833389, 31.0164992 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1177170005", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.3402917, 31.03554 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1178024734", "label": "Yokley Road Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.5374267, 29.8150161 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1178066992", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.5035313, 29.7933283 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1178066993", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.503232, 29.7848062 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1178066995", "label": "Baldwin Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.550789, 29.8365939 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1178066998", "label": "Charenton Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.5285396, 29.8910374 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1178108094", "label": "Verdunville Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.4029284, 29.7516477 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1178108101", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.4653046, 29.6872266 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1178108104", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.4725076, 29.6845469 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1178108109", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.455929, 29.6830306 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1178108110", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.4553322, 29.6833219 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1178108111", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.455314, 29.6825422 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1178108115", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.470396, 29.6847097 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1179902368", "label": "North Cottonport Substation" }, "geometry": { "type": "Point", "coordinates": [ -92.0491544, 30.9951829 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1179902370", "label": "South Cottonport Substation" }, "geometry": { "type": "Point", "coordinates": [ -92.0488017, 30.9740935 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180187216", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.4760857, 31.3071054 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180465645", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.4501774, 31.3112298 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180465655", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.4330068, 31.2785295 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180465656", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.4491806, 31.2724438 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180465659", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.4708386, 31.273211 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1180465663", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.4711991, 31.2728337 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1181938624", "label": "Loreauville Substation" }, "geometry": { "type": "Point", "coordinates": [ -91.7353742, 30.0643735 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1197277626", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.7533814, 29.981474 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1198050302", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.6712708, 31.3742684 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1199674838", "label": "Boyce Substation" }, "geometry": { "type": "Point", "coordinates": [ -92.6654714, 31.3854168 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1258958791", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.8092926, 30.1025736 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1282223233", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.5267174, 31.3296641 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1311389999", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.450681, 31.2678521 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1320167929", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -92.4126186, 31.1831511 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1354095156", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.7789729, 30.2127307 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1354095520", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.7794452, 30.2114677 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1467850504", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.8145129, 30.1106761 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1485091004", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.8228252, 30.1212477 ] } }
+{ "type": "Feature", "properties": { "code": "way\/1534121395", "label": "Unknown" }, "geometry": { "type": "Point", "coordinates": [ -91.822433, 30.1217445 ] } }
