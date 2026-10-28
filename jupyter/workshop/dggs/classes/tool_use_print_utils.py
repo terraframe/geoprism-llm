@@ -23,6 +23,7 @@ def header():
     print("3) Show the generated SPARQL of the last question")
     print("4) What hospitals and school zones will be affected by power issues when the water level is greater than 8.5?") 
     print("5) How many schools are in each of those school districts?")
+    print("6) Which superintendents should I contact?")    
     print("")
     print("To exit the program, simply type 'x' and press Enter.")
     print("")
