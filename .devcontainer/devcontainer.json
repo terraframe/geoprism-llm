@@ -1,0 +1,13 @@
+{
+  "name": "Python 3.13 Jupyter",
+  "image": "mcr.microsoft.com/devcontainers/python:3.13",
+  "customCommands": [
+    {
+      "command": "pip install ipykernel",
+      "description": "Install IPython kernel"
+    }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "/usr/local/bin/python3.13"
+  }
+}
