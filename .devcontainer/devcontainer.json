@@ -1,13 +1,17 @@
 {
   "name": "Python 3.13 Jupyter",
   "image": "mcr.microsoft.com/devcontainers/python:3.13",
-  "customCommands": [
-    {
-      "command": "pip install ipykernel",
-      "description": "Install IPython kernel"
+  "features": {
+    "ghcr.io/devcontainers/features/conda:1": {
+      "addCondaForge": true
     }
-  ],
-  "settings": {
-    "python.defaultInterpreterPath": "/usr/local/bin/python3.13"
+  },
+  "postCreateCommand": "pip install ipykernel",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python3.13"
+      }
+    }
   }
 }
